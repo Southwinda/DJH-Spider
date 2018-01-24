@@ -19,6 +19,10 @@
 - 爬取百度贴吧
 #### day4
 - 爬取淘宝MM
+#### day5
+- requests
+- Beautifulsoup
+
 
 
 
