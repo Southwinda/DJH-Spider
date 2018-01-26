@@ -9,12 +9,13 @@ import scrapy
 
 
 class ItcastItem(scrapy.Item):
-    # define the fields for your item here like:
-    print('ItcastItem(scrapy.Item)......')
-    #老师姓名
+    '''
+    定义要获取的字段
+    '''
+    print('djh:ItcastItem...')
+    # 老师姓名
     name = scrapy.Field()
-    #老师职称
+    # 老师职称
     title = scrapy.Field()
-    #老师信息
-    indo = scrapy.Field()
-    
+    # 老师信息
+    info = scrapy.Field()

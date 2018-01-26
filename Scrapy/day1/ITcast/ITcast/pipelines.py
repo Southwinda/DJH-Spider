@@ -8,5 +8,19 @@
 
 class ItcastPipeline(object):
     def process_item(self, item, spider):
-        print('ItcastPipeline(object)......process_item()')
+        print('djh:ItcastPipeline...process_item()')
+        # item(Item对象)-被爬取的item
+        # spider(Spider对象)-爬取该item的爬虫
+        # 这个方法必须实现，每个item pipline组件都需要该方法
+        # 这个方法必须返回一个item对象，被丢掉的iten将不会被之后的pipline组件所处理、
         return item
+
+    def open_spider(self, spider):
+        # spider-(Spider对象)- 被开启的spider
+        # 可选实现，当spider被开启时，这个方法被调用对象
+        pass
+
+    def close_spider(self, spider):
+        # spider(Spider对象)-被关闭的spider
+        # 可选实现，当spider被关闭时，这个方法被调用对象
+        pass
