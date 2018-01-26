@@ -22,6 +22,10 @@
 #### day5
 - requests
 - Beautifulsoup
+#### day6
+- scrapy day1
+> 搭建环境，scrapy框架结构，基本使用
+
 
 
 
