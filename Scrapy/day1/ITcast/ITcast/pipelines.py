@@ -8,4 +8,5 @@
 
 class ItcastPipeline(object):
     def process_item(self, item, spider):
+        print('ItcastPipeline(object)......process_item()')
         return item
