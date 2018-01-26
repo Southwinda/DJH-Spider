@@ -26,7 +26,9 @@
 - scrapy day1
 > 搭建环境，scrapy框架结构，基本使用
 
-
+#### day7
+- 学习XPath
+- 学习Scrapy命令
 
 
 
