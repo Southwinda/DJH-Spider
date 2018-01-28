@@ -10,7 +10,7 @@ class ToscrapeSpider(scrapy.Spider):
 
 
     def parse(self, response):
-
+        self.logger.info('A response from %s just arrived!', response.url)
         # filename = response.url.split("/")[-1] + '.html'
         # with open(filename, 'wb') as f:
         #     f.write(response.body)
@@ -38,16 +38,4 @@ class ToscrapeSpider(scrapy.Spider):
         for href in response.xpath('//li[@class="next"]/a/@href'):
             if href:
                 url=response.urljoin(href.extract())
-                yield scrapy.Request(url,callback=self.parse_contents_of_next)
-
-    def parse_contents_of_next(self, response):
-        for node in response.xpath("//div[@class='col-md-8']/div[@class='quote']"):
-            item = TutorialItem()
-            item["author"]=node.xpath("./span[2]/small/text()").extract()
-            item["content"]=node.xpath("./span[1]/text()").extract()
-            item["tags"]=node.xpath('./div[@class="tags"]/a/text()').extract()
-            yield item
-        for href in response.xpath('//li[@class="next"]/a/@href'):
-            if href:
-                url=response.urljoin(href.extract())
-                yield scrapy.Request(url,callback=self.parse_contents_of_next)
+                yield scrapy.Request(url,callback=self.parse)
