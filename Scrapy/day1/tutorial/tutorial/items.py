@@ -9,6 +9,6 @@ import scrapy
 
 
 class TutorialItem(scrapy.Item):
-    title=scrapy.Field()
-    link=scrapy.Field()
-    desc=scrapy.Field()
+    author=scrapy.Field()
+    content=scrapy.Field()
+    tags=scrapy.Field()
