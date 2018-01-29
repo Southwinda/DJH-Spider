@@ -11,4 +11,5 @@ import scrapy
 class DouyuItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    nickname=scrapy.Field()
+    vertical_src=scrapy.Field()
