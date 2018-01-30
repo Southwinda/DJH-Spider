@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-# from Douyu.items import DouyuItem
+from Douyu.items import DouyuItem
 
 
 class DouyuSpider(scrapy.Spider):
@@ -13,10 +13,7 @@ class DouyuSpider(scrapy.Spider):
     def parse(self, response):
         datas = json.loads(response.body)
         for data in datas['data']:
-            # item = DouyuItem()
-            # item['vertical_src'] = data['vertical_src']
-            # item['nickname'] = data['nickname']
-            # yield item
-            vertical_src = data['vertical_src']
-            nickname = data['nickname']
-            print(vertical_src,nickname)
+            item = DouyuItem()
+            item['vertical_src'] = data['vertical_src']
+            item['nickname'] = data['nickname']
+            yield item

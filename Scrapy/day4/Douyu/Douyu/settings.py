@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Tencent project
+# Scrapy settings for Douyu project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Tencent'
+BOT_NAME = 'Douyu'
 
-SPIDER_MODULES = ['Tencent.spiders']
-NEWSPIDER_MODULE = 'Tencent.spiders'
+SPIDER_MODULES = ['Douyu.spiders']
+NEWSPIDER_MODULE = 'Douyu.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Tencent (+http://www.yourdomain.com)'
+#USER_AGENT = 'Douyu (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Tencent.middlewares.TencentSpiderMiddleware': 543,
+#    'Douyu.middlewares.DouyuSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Tencent.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'Douyu.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'Tencent.pipelines.TencentPipeline': 300,
+#    'Douyu.pipelines.DouyuPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
