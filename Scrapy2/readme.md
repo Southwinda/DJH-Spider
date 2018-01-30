@@ -9,10 +9,29 @@
 
 > example Quotes
 
-
 #### 2.项目结构
 
 #### 3.scrapy命令
+
+##### 3.1 global commands
+
+- 创建项目projectname
+>scrapy startproject projectname
+- 生成爬虫
+>scrapy genspider domain
+- 交互测试
+>scrapy shell url
+- 网页浏览
+>scrapy view url
+- 使用downloader下载url
+>scrapy fetch url
+##### 3.2 project commands
+- 运行spidername
+>scrapy crawl spidername
+- 测试代码
+>scrapy check spidername
+- 显示当前项目中全部爬虫
+>scrapy list
 
 #### 4.selector
 #### 5.spider
