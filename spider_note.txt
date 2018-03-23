@@ -1,0 +1,29 @@
+python web spider
+
+爬虫调度器
+
+URl管理器--实现方式（内存，关系数据库，缓存数据库（redis））
+
+网页下载器--（urllib2，requets）
+	URLlib2：
+		urlopen(url)
+		url添加data，http header，urllib2.request()
+		添加特殊情景的处理器：HTTpCookieProcesser....,urllib2.builder_opener(),urllib2.install_opener...
+.
+网页解析器--正则表达式,html.paser,beautifulSoup,lxml
+	beautifulSoup很强大可以使用html.paser和lxml
+.
+
+
+python3.6 报错：
+1.python3.x: urllib ==python2.x: urilib2+urllib
+urllib2.urlopen()--->urllib.request.urlopen()
+urllib2.Request()--->urllib.request.Request() 
+urllib.urlencode()--->urllib.parse.urlencode
+
+2.TypeError:POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str. 
+解决：postdata=parse.urlencode(values).encode(encoding='utf-8')
+
+3.response.read()#返回的是unicode字符串，decode('utf-8')得到str
+
+4.
