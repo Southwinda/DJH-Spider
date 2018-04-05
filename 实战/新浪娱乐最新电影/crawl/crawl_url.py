@@ -40,7 +40,7 @@ fileurl.close()
 xpathstr1 = "//*[@id='feedCardContent']/div[3]/span[7]/a"
 xpathstr2 = "//*[@id='feedCardContent']/div[3]/span[8]/a"
 
-while (i<7):
+while (i<3):
 	if i <= 5:
 		browser.find_element_by_xpath(xpathstr1).click()
 		time.sleep(1)
