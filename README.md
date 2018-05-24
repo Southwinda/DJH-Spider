@@ -1,5 +1,3 @@
-# DJH-Spider
----
 ## jasonhaven
 ---
 ### 1.入门
@@ -39,5 +37,7 @@
 #### day10
 - 爬取斗鱼主播名字和大头照--pipline保存
 
-
+#### [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
+- 中国汽车新闻网
+- 汽车产经网
 
