@@ -40,4 +40,5 @@
 #### [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
 - 中国汽车新闻网
 - 汽车产经网
+#### [百度学术爬虫](https://github.com/jasonhavenD/BaiduXueshu)
 
