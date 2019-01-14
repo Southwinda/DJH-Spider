@@ -42,3 +42,7 @@
 - 汽车产经网
 #### [百度学术爬虫](https://github.com/jasonhavenD/BaiduXueshu)
 
+#### [常用百科爬虫](https://github.com/jasonhavenD/Baike)
+
+
+
