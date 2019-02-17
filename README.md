@@ -40,7 +40,8 @@
 #### [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
 - 中国汽车新闻网
 - 汽车产经网
-#### [百度学术爬虫](https://github.com/jasonhavenD/BaiduXueshu)
+#### [百度学术爬虫](https://github.com/jasonhavenD/Scholar)
+#### [必应学术爬虫](https://github.com/jasonhavenD/Scholar)
 
 #### [常用百科爬虫](https://github.com/jasonhavenD/Baike)
 
