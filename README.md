@@ -34,16 +34,17 @@
 #### day9
 - 爬取腾讯招聘网站翻页数据采集--更新Url
 
+
+
 #### day10
 - 爬取斗鱼主播名字和大头照--pipline保存
 
 #### [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
 - 中国汽车新闻网
 - 汽车产经网
-#### [百度学术爬虫](https://github.com/jasonhavenD/Scholar)
-#### [必应学术爬虫](https://github.com/jasonhavenD/Scholar)
-
-#### [常用百科爬虫](https://github.com/jasonhavenD/Baike)
-
+- [百度学术爬虫](https://github.com/jasonhavenD/Scholar)
+- [必应学术爬虫](https://github.com/jasonhavenD/Scholar)
+- [常用百科爬虫](https://github.com/jasonhavenD/Baike)
+- [获取代理脚本](https://github.com/jasonhavenD/DJH-Spider/blob/master/gen_proxy.py)
 
 
