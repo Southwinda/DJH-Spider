@@ -38,3 +38,4 @@
 - [获取代理脚本](https://github.com/jasonhavenD/DJH-Spider/blob/master/gen_proxy.py)
 - [构造金融实体关系](https://github.com/jasonhavenD/financial_entity_construction)
 - [微博爬虫](https://github.com/jasonhavenD/Weibo)
+- [论文采集助手](https://github.com/jasonhavenD/paperassist)
