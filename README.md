@@ -27,6 +27,7 @@
 - 爬取百度贴吧
 - 爬取淘宝MM
 - 爬取豆瓣电影排行榜
+- [豆瓣最新电影和各类别排行榜](https://github.com/jasonhavenD/DJH-Spider/blob/master/douban_movies_leaderboard.py)
 - 爬取腾讯招聘网站翻页数据采集--更新Url
 - 爬取斗鱼主播名字和大头照--pipline保存
 
