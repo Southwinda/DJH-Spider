@@ -27,6 +27,7 @@
 - 爬取百度贴吧
 - 爬取淘宝MM
 - 爬取豆瓣电影排行榜
+- [采集天猫电影TOP100](https://github.com/jasonhavenD/DJH-Spider/blob/master/%E5%AE%9E%E6%88%98/%E5%A4%A9%E7%8C%AB%E7%94%B5%E5%BD%B1top100.ipynb)
 - [豆瓣最新电影和各类别排行榜](https://github.com/jasonhavenD/DJH-Spider/blob/master/douban_movies_leaderboard.py)
 - 爬取腾讯招聘网站翻页数据采集--更新Url
 - 爬取斗鱼主播名字和大头照--pipline保存
