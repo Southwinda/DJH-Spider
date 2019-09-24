@@ -10,6 +10,7 @@
 - 基本爬取过程
 - cookie使用
 - get方式和post方式
+- [python3 网课代码](https://github.com/jasonhavenD/python3_course_code)
 
 ## 常用库
 - python 库：urllib,urllib2,requests,beautifulsoup,lxml,selenium,phantomjs,scrapy等等
@@ -32,6 +33,7 @@
 - 爬取腾讯招聘网站翻页数据采集--更新Url
 - 爬取斗鱼主播名字和大头照--pipline保存
 
+
 ## 项目中的数据采集
 - [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
 - [百度学术爬虫](https://github.com/jasonhavenD/Scholar)
@@ -41,3 +43,5 @@
 - [构造金融实体关系](https://github.com/jasonhavenD/financial_entity_construction)
 - [微博爬虫](https://github.com/jasonhavenD/Weibo)
 - [论文采集助手](https://github.com/jasonhavenD/paperassist)
+
+
