@@ -10,7 +10,7 @@
 - 基本爬取过程
 - cookie使用
 - get方式和post方式
-- [python3 网课代码](https://github.com/jasonhavenD/python3_course_code)
+- [python3 基础库学习以及实战代码](https://github.com/jasonhavenD/python3_course_code)
 
 ## 常用库
 - python 库：urllib,urllib2,requests,beautifulsoup,lxml,selenium,phantomjs,scrapy等等
