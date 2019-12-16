@@ -33,6 +33,7 @@
 - 爬取腾讯招聘网站翻页数据采集--更新Url
 - 爬取斗鱼主播名字和大头照--pipline保存
 - [scrapy+redis+django+elasticsearch 构建搜索引擎](https://github.com/ImportMe/scrapy_redis_elasticsearch)
+- [selenium+mongodb 推特Twitter搜索关键词，采集相关话题推文爬虫](https://github.com/jasonhavenD/DJH-Spider/blob/master/%E5%AE%9E%E6%88%98/twitter.ipynb)
 
 ## 项目中的数据采集
 - [汽车网站数据采集](https://github.com/jasonhavenD/DJH-CarCrawler)
