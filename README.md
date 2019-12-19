@@ -44,5 +44,5 @@
 - [构造金融实体关系](https://github.com/jasonhavenD/financial_entity_construction)
 - [微博爬虫](https://github.com/jasonhavenD/Weibo)
 - [论文采集助手](https://github.com/jasonhavenD/paperassist)
-
+- [Twitter Spider 推特爬虫，支持搜索关键词采集推文数据，采集相关用户，采集用户主页推文](https://github.com/jasonhavenD/TwitterSpider)
 
