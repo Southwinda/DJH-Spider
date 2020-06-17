@@ -83,7 +83,7 @@ def get_page_urls(type_dict, size=10):
 def get_data(url):
     tname = url[0]
     link = url[1]
-    response = requests.get(link)
+    response = requests.get(link,headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"})
     data = json.loads(response.text)
     return tname, data
 
