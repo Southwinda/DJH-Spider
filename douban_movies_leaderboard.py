@@ -37,7 +37,7 @@ class TypeItem:
 def get_new_film_board_and_categories(start_url):
     new_film_board = []
     type_dict = []
-    response = requests.get(start_url)
+    response = requests.get(start_url,headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"})
     soup = bs4.BeautifulSoup(response.text, 'lxml')
 
     for t in soup.select_one('div.indent').select('table'):
