@@ -45,4 +45,4 @@
 - [微博爬虫](https://github.com/jasonhavenD/Weibo)
 - [论文采集助手](https://github.com/jasonhavenD/paperassist)
 - [Twitter Spider 推特爬虫，支持搜索关键词采集推文数据，采集相关用户，采集用户主页推文](https://github.com/jasonhavenD/TwitterSpider)
-
+- [universal_website_spider](https://github.com/jasonhavenD/universal_website_spider)
